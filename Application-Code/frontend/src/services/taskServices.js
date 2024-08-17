@@ -20,7 +20,7 @@
 
 import axios from "axios";
 //const apiUrl = "https://surajsanjay.com/api/tasks";
-const apiUrl = process.env.REACT_APP_BACKEND_URL || "https://surajsanjay.com/api/tasks";
+const apiUrl = process.env.REACT_APP_BACKEND_URL // "https://surajsanjay.com/api/tasks";
 console.log(apiUrl);
 
 export function getTasks() {
